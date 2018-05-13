@@ -8,9 +8,6 @@ public class GradeBean {
 	
 	private int i_score;
 	
-	public GradeBean() {
-		
-	}
 	
 	public String getUsername() {
 		return username;
