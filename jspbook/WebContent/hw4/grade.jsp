@@ -22,8 +22,8 @@
 <H2>JavaBeans GradeBean에 저장된 정보를 조회 출력</H2>
 	
 	이름 : <%= grade.getUsername() %></br>
-	성적: <%= grade.getScore() %></br>
-	등급: <%= grade.getGrade() %></br>
+	성적: <jsp:getProperty property="score" name="grade" /></br>
+	등급: <%= grade.get_Grade() %></br>
 <HR>
 <a href="grade_list.jsp">목록 보기</a>
 

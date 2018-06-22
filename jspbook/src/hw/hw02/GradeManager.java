@@ -18,7 +18,7 @@ public class GradeManager {
 			System.out.println("...");
 			return grade_list;
 		}
-		
+		/*
 		// 특정 사용자를 목록에서 검색하는 메서드
 		public GradeBean getGrade(String username) {
 			for(GradeBean gb : grade_list) {
@@ -27,5 +27,5 @@ public class GradeManager {
 			}
 			return null;
 		}
-
+		 */
 }

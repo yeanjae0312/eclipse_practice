@@ -23,7 +23,7 @@
 %>
 	이름: <%=gb.getUsername() %></br>
 	성적: <%=gb.getScore() %></br>
-	등급: <%=gb.getGrade() %></br>
+	등급: <%=gb.get_Grade() %></br>
 	</br>
 
 <%	

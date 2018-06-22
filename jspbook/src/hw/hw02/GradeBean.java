@@ -18,7 +18,7 @@ public class GradeBean {
 	}
 	
 	
-	public String getGrade() {
+	public String get_Grade() {
 		i_score=Integer.parseInt(score);
 		
 		if(i_score<=100 && i_score>=90) {
